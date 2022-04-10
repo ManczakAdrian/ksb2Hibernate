@@ -13,7 +13,7 @@ public class Car {
     private String mark;
     private String model;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.ORDINAL)
     private Color color;
 
     public Car( String mark, String model, Color color) {
