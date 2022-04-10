@@ -38,7 +38,9 @@ public class Start {
         System.out.println("==========================================");
 
         carRepo.findCarsByColorAndMark(Color.RED,"Fiat").forEach(System.out::println);
+        System.out.println("==========================================");
 
+        carRepo.findCarsByModelMyImpl("Caro").forEach(System.out::println);
 
     }
 }
